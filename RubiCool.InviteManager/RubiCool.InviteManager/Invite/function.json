@@ -1,0 +1,18 @@
+﻿{
+  "disabled": false,
+  "scriptFile": "..\\bin\\RubiCool.InviteManager.dll",
+  "entryPoint": "RubiCool.InviteManager.InviteFunction.Run",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
