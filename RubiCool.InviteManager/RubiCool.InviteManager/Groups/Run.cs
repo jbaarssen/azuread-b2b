@@ -14,7 +14,7 @@ namespace RubiCool.InviteManager
     {
         public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
         {
-            log.Info("CreateGroup http trigger started.");
+            log.Info("Group function http trigger started.");
 
             try
             {
@@ -23,7 +23,9 @@ namespace RubiCool.InviteManager
 
                 // Create group
                 var response = await GroupsManager.CreateGroup(request);
-                
+
+                log.Info("Group function executed succesfully");
+
                 return req.CreateResponse(HttpStatusCode.Created, response);
             }
             catch (Exception e)

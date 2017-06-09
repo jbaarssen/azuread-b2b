@@ -14,7 +14,7 @@ namespace RubiCool.Common
         public const string GraphApiVersion = "v1.0";
         public const string GraphApiBetaVersion = "beta";
         public static string SendGridAPIKey = Config.GetKeyVaultSecret("SendGridAPIKey");
-        public const string SendGridTemplateId = "";
+        public const string SendGridTemplateId = "8b895add-ad5a-4dce-8475-997af0bbaf5e";
         public const string SendGridSubject = "You are invited to the RubiChill portal";
         public const string SendGridNoReploy = "no-reply@rubichill.com";
 

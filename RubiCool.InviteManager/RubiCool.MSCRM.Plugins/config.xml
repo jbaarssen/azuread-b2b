@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <InviteFunctionKey>6xfjzzINtOaUGraN9BgKnr8dNyeBJ2eflj3Z5lkzCxqeSqddZBkVIQ==</InviteFunctionKey>
+  <InviteEndPoint>https://rubichillsps.azurewebsites.net/api/invite</InviteEndPoint>
+  <GroupFunctionKey>OYds/jjsUNTPk7LbqFJwPbbuv0Fy4gQF89HrO/apSt0CEro36ZuLzg==</GroupFunctionKey>
+  <GroupEndPoint>https://rubichillsps.azurewebsites.net/api/groups</GroupEndPoint>
+  <UsersFunctionKey>Of53oiCfsGT73/TN80rRdX8qXLZ/QD9ji4h0ORkDgRRSJ8ybcfYGZQ==</UsersFunctionKey>
+  <UsersEndPoint>https://rubichillsps.azurewebsites.net/api/users</UsersEndPoint>
+</Config>
