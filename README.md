@@ -1,2 +1,2 @@
 # azuread-b2b
-Azure AD B2B integration between CRM 365 and Azure AD B2B
+Complete solution to provisioning Office 365 Groups and sending Azure AD B2B invitations with Dyanmics CRM 365 plugins and Graph API. 
